@@ -1,8 +1,4 @@
 let base_url = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
-// const base_url = 'https://www.dictionaryapi.com/api/v3/references/learners/json/'
-// const api_key = 'dfe67af1-565c-4afe-bb53-14bca0088974'
-// const base_url = 'https://wordsapiv1.p.mashape.com/words/'  
-
 const btn = document.querySelector('.btn');
 const inputValue = document.querySelector('#inputValue')
 const word = document.querySelector('.word')
@@ -69,7 +65,7 @@ function btnFunc() {
                 } else {
                     no_audio.innerText = ''
                     volume.classList.remove('hidden')
-                 }
+                }
                 welcome.innerText = ''
                 par_info.innerText = ''
             } else {

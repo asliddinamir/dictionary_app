@@ -5,17 +5,18 @@ body {
     background: #2b2a2a;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{    
+.container {
     position: relative;
     min-height: 100vh;
 }
-.card{
+
+.card {
     width: 50%;
     height: auto;
     display: flex;
@@ -25,35 +26,40 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title{
+
+.title {
     color: #ccc;
     margin-block: 1%;
     font-size: 2rem;
 }
-.input{
+
+.input {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
 }
 
-.btn{
+.btn {
     background: transparent;
     border: none;
     cursor: pointer;
     margin-left: -3rem;
 }
-.btn i{
+
+.btn i {
     font-size: 1.5rem;
     padding: 1rem;
     color: #ccc;
 }
-.input input{
+
+.input input {
     border-bottom: 1px solid grey !important;
     background: transparent;
     border: none;
@@ -66,62 +72,66 @@ body {
 
 }
 
-input:focus{
+input:focus {
     border-bottom: 1px solid yellow !important;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.info h1{
+
+.info h1 {
     color: white;
     font-size: 2rem;
     padding-bottom: 2rem;
 }
-.info h2{
+
+.info h2 {
     color: white;
     font-weight: 100;
 }
-.stats{
+
+.stats {
     position: relative;
 }
-.stats h4{
+
+.stats h4 {
     color: yellow;
     margin-top: -1rem;
     font-size: 1.5rem;
 }
 
-.stats h5{
+.stats h5 {
     color: #eee;
     font-size: 1.2rem;
     font-weight: 100;
     display: inline;
 }
 
-.stats span{
+.stats span {
     color: grey;
     font-size: 1.2rem;
     display: inline;
 }
 
-#main{
+#main {
     border-left: 4px solid greenyellow;
     margin-block: 4rem;
     padding-left: 1rem;
 }
 
-#main h3{
+#main h3 {
     color: #fff;
 }
 
-#main p{
+#main p {
     color: #999;
 }
 
-#volume{
+#volume {
     color: green;
     right: 0;
     position: absolute;
@@ -129,40 +139,43 @@ input:focus{
     top: 0;
 }
 
-.no_audio{
-    right:0;
+.no_audio {
+    right: 0;
     position: absolute;
     top: 0;
     color: white;
     font-size: 1.3rem;
 }
 
-.hidden{
+.hidden {
     display: none !important;
 }
 
-footer{
+footer {
     position: absolute;
     width: 100%;
     bottom: 0;
     text-align: center;
 }
-.name{
+
+.name {
     font-size: .9rem;
     color: white;
     font-weight: 100;
 }
-.name a{
+
+.name a {
     color: rgb(206, 29, 29);
     text-decoration: none;
     font-weight: 500;
 }
 
-@media(max-width:1140px){
-    .card{
+@media(max-width:1140px) {
+    .card {
         width: 90%;
     }
-    .info h2{
+
+    .info h2 {
         text-align: center;
     }
 }
