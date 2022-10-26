@@ -13,7 +13,7 @@ body {
 
 .container {
     position: relative;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 
 .card {
