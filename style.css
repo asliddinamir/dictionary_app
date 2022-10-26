@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #2b2a2a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{    
+    position: relative;
+    min-height: 100vh;
+}
+.card{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #ccc;
+    margin-block: 1%;
+    font-size: 2rem;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -3rem;
+}
+.btn i{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #ccc;
+}
+.input input{
+    border-bottom: 1px solid grey !important;
+    background: transparent;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    color: #ccc;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: none;
+
+}
+
+input:focus{
+    border-bottom: 1px solid yellow !important;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info h1{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.info h2{
+    color: white;
+    font-weight: 100;
+}
+.stats{
+    position: relative;
+}
+.stats h4{
+    color: yellow;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+}
+
+.stats h5{
+    color: #eee;
+    font-size: 1.2rem;
+    font-weight: 100;
+    display: inline;
+}
+
+.stats span{
+    color: grey;
+    font-size: 1.2rem;
+    display: inline;
+}
+
+#main{
+    border-left: 4px solid greenyellow;
+    margin-block: 4rem;
+    padding-left: 1rem;
+}
+
+#main h3{
+    color: #fff;
+}
+
+#main p{
+    color: #999;
+}
+
+#volume{
+    color: green;
+    right: 0;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+}
+
+.no_audio{
+    right:0;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.hidden{
+    display: none !important;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.name{
+    font-size: .9rem;
+    color: white;
+    font-weight: 100;
+}
+.name a{
+    color: rgb(206, 29, 29);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media(max-width:1140px){
+    .card{
+        width: 90%;
+    }
+    .info h2{
+        text-align: center;
+    }
+}
